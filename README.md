@@ -12,6 +12,8 @@
 ### Project Overview
 This project utilizes real-world datasets to practice and demonstrate data manipulation, statistical analysis, and data visualization skills using Python's pandas and matplotlib libraries. Key datasets include student performance scores, global GDP data, supermarket sales, and global population statistics. The project explores student academic performance patterns, economic and demographic trends, and consumer behavior through pivot tables and various chart types.
 
+
+
 ### Data Source
 - StudentsPerformance.csv
 - gdp.csv
@@ -68,7 +70,7 @@ The analysis results are summarized as follows:
 
 
 ### References
-[Alex the Analyst - YouTube Channel](https://www.youtube.com/watch?v=OT1RErkfLNQ&list=PL9PrwgRNlv62OiqVlASto1N4cAQRg60dr&index=22&pp=gAQBiAQB)
+[freeCodeCamp - YouTube Channel](https://www.youtube.com/watch?v=WcDaZ67TVRo&list=PL9PrwgRNlv62OiqVlASto1N4cAQRg60dr&index=18&pp=gAQBiAQB)
 
 
 
