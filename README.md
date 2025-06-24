@@ -13,10 +13,11 @@
 This project utilizes real-world datasets to practice and demonstrate data manipulation, statistical analysis, and data visualization skills using Python's pandas and matplotlib libraries. Key datasets include student performance scores, global GDP data, supermarket sales, and global population statistics. The project explores student academic performance patterns, economic and demographic trends, and consumer behavior through pivot tables and various chart types.
 
 #### Time Series Chart
-![Untitled](https://github.com/user-attachments/assets/b8f1ea21-dace-4f4d-9b90-a8cb5c87d3fc)
+![Untitled](https://github.com/user-attachments/assets/a73952e5-92fb-41b3-9f7b-daefb44d4983)
+
 
 #### Cluster Bar Chart
-![Untitled1](https://github.com/user-attachments/assets/79249af2-fe32-45a2-b6e1-efa08b88f18c)
+![Untitled1](https://github.com/user-attachments/assets/4f89bb26-ae74-462d-b7e5-2055a67a372a)
 
 
 ### Data Source
