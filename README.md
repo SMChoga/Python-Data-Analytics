@@ -28,26 +28,35 @@ Python for data analysis
 
 ### Data Analysis
 Include interesting code/features worked with
-```sql
-Select distinct industry
-From layoffs_stage2
-Order by 1;
+```python
+import pandas as pd
+pd.read_csv('population_total.csv')
+df_population_raw = pd.read_csv('population_total.csv')
+df_population_raw
 
-Select dem.company, dem.industry, sal.company, sal.industry
- From layoffs_stage2 dem
-   Inner Join layoffs_stage2 sal
-     On dem.company = sal.company
-       Where (dem.industry = '' or dem.industry IS Null)
-		  And sal.industry IS NOT Null
-             ;
+df_population_raw.dropna()
+df_population_raw.dropna(inplace=true)
 
-Update layoffs_stage2 dem
-  Inner Join layoffs_stage2 sal
-     On dem.company = sal.company
-       Set dem.industry = sal.company
-       Where (dem.industry = '' or dem.industry IS Null)
-		  And sal.industry IS NOT Null
-               ;
+df_population_raw.pivot_table(index='year', columns = 'country', values = 'population')
+df_pivot = df_population_raw.pivot_table(index='year', columns = 'country', values = 'population')
+
+df_pivot = df_pivot[['United States', 'India', 'China', 'Indonesia', 'Brazil']]
+
+df_pivot.plot(kind='line', xlabel='Year', ylabel = 'Population', title = 'Population (1955-2020)', figsize=(8,4))
+
+
+
+
+df_pivot [df_pivot.index.isin([2020])]
+df_pivot_2020 = df_pivot [df_pivot.index.isin([2020])]
+df_pivot_2020
+
+df_pivot_2020.T
+df_pivot_2020=df_pivot_2020.T
+
+df_pivot_2020.plot(kind='bar', color = 'orange', xlabel 'Year', ylabel = 'Population', title = 'Population 2020')
+![image](https://github.com/user-attachments/assets/3b7852ce-4ad1-4b00-a64d-48890898ec7f)
+
 ```
 
 ### Results/Findings
