@@ -4,9 +4,9 @@
 - [Project Overview](#project-overview)
 - [Data Source](#data-source)
 - [Tools](#tools)
-- [Data Cleaning/Preparation](#data-cleaning/preparation)
+- [Data Cleaning](#data-cleaning)
 - [Data Analysis](#data-analysis)
-- [Results/Findings](#results-findings)
+- [Results](#results)
 - [References](#references)
 
 ### Project Overview
@@ -29,7 +29,7 @@ This project utilizes real-world datasets to practice and demonstrate data manip
 ### Tools
 Python for data analysis
 
-### Data Cleaning/Preparation
+### Data Cleaning
 - Assigned a new column (language score) and populated it with randomly generated integer values between 1 and 100.
 - Removed missing values from population data using dropna().
 - Sorted exam scores by subject, and selected the top 100 students based on language performance.
@@ -66,7 +66,7 @@ df_pivot_2020.plot(kind='bar', color = 'orange', xlabel 'Year', ylabel = 'Popula
 
 ```
 
-### Results/Findings
+### Results
 The analysis results are summarized as follows:
 - Average scores across math, reading, and writing were distributed fairly evenly with some gender-based trends.
 - Parents’ education levels varied widely, potentially indicating different socioeconomic backgrounds.
