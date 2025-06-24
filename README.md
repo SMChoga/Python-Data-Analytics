@@ -55,7 +55,6 @@ df_pivot_2020.T
 df_pivot_2020=df_pivot_2020.T
 
 df_pivot_2020.plot(kind='bar', color = 'orange', xlabel 'Year', ylabel = 'Population', title = 'Population 2020')
-![image](https://github.com/user-attachments/assets/3b7852ce-4ad1-4b00-a64d-48890898ec7f)
 
 ```
 
